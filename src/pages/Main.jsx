@@ -1,9 +1,11 @@
+import FAQs from "../components/FAQs";
+
 function Main() {
 	return (
 		<div className="space-y-28 scroll-smooth">
 			{/* hero */}
 			<section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12">
-				<h1 className="text-4xl lg:text-5xl xl:text-6xl text-center font-semibold max-w-5xl mx-auto leading-relaxed">
+				<h1 className="text-4xl lg:text-5xl xl:text-6xl text-center font-semibold max-w-5xl mx-auto leading-snug md:leading-relaxed">
 					Welcome to Let's Talk - Your Remote Customer <br /> Service Partner
 				</h1>
 				<p className="text-center max-w-xl mx-auto text-slate-700">
@@ -47,7 +49,7 @@ function Main() {
 
 			{/* services */}
 			<section id="services" className="scroll-mt-12 space-y-16 py-12">
-				<h4 className="text-center font-medium text-cyan-500">OUR SERVICES</h4>
+				<h4 className="text-center font-semibold text-xl text-cyan-500">OUR SERVICES</h4>
 				<div className="w-[85%] sm:w-[90%] md:w-[90%] lg:w-[80%] text-center mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4 lg:gap-6">
 					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
@@ -123,6 +125,11 @@ function Main() {
 					</div>
 				</div>
 			</section>
+
+            {/* faqs */}
+            <section id="faqs">
+                <FAQs />
+            </section>
 		</div>
 	);
 }

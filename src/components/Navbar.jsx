@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logoOne from "../assets/logos/Full Colour/Full Colour.png"
 function Navbar() {
 	const [showNav, setShowNav] = useState(false);
 
@@ -6,7 +7,9 @@ function Navbar() {
 		<>
 			<header className="hidden md:block max-w-screen-2xl mx-auto">
 				<div className="flex items-center justify-between w-[85%] mx-auto relative px-3 py-3 border border-slate-200 rounded-md top-6">
-					<div>LOGO</div>
+					<div>
+						<img src={logoOne} className="w-44  object-cover" alt="" />
+					</div>
 					<nav className="2xl:text-xl space-x-4 justify-self-start">
                         <a href="#about">About</a>
 						<a href="#services">Services</a>
@@ -23,10 +26,10 @@ function Navbar() {
 
 			<header className="relative md:hidden">
 				<div className="flex items-end justify-between w-[90%] mx-auto relative px-3 py-3 border border-slate-200 rounded-md top-6">
-					<div>LOGO</div>
+				<img src={logoOne} className="w-40 object-cover" alt="" />
 					<div
 						onClick={() => setShowNav(!showNav)}
-						className="transition-all absolute right-3"
+						className="transition-all  my-auto"
 					>
 						{!showNav ? (
 							<svg

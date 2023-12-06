@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='scroll-smooth bg-gradient-to-b from-cyan-50 via-transparent to-cyan-100/90 bg-fixed min-h-screen space-y-6'>
+      <div className='scroll-smooth bg-gradient-to-b from-cyan-50 via-transparent to-cyan-100/90 bg-fixed min-h-screen'>
         <Navbar />
         <Main />
         <Footer />

@@ -9,6 +9,10 @@ export default {
       fontFamily: {
         serif: ['Literata'],
         sans: ['"General Sans"']
+      },
+      colors: {
+        primary: '#0CBABA', // light cyan-ish
+        secondary: '#093737' // dark cyan-ish
       }
     },
   },

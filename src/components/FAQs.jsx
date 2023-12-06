@@ -42,9 +42,9 @@ function FAQs() {
 		// tabFocus: true
 	};
 	return (
-		<div className="space-y-12">
+		<div className="space-y-12 mb-24">
             <h4 className="font-semibold text-center text-xl text-cyan-500">FAQs</h4>
-			<div className="w-4/5 mx-auto max-w-3xl">
+			<div className="w-[85%] mx-auto max-w-3xl ">
 				<Faq data={data} styles={styles} config={config} />
 			</div>
 		</div>

@@ -4,10 +4,10 @@ function Navbar() {
 
 	return (
 		<>
-			<header className="hidden md:block">
+			<header className="hidden md:block max-w-screen-2xl mx-auto">
 				<div className="flex items-center justify-between w-[85%] mx-auto relative px-3 py-3 border border-slate-200 rounded-md top-6">
 					<div>LOGO</div>
-					<nav className="space-x-4 justify-self-start">
+					<nav className="2xl:text-xl space-x-4 justify-self-start">
                         <a href="#about">About</a>
 						<a href="#services">Services</a>
                         <a href="#pricing">Pricing</a>

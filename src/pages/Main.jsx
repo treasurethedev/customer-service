@@ -2,10 +2,10 @@ import FAQs from "../components/FAQs";
 
 function Main() {
 	return (
-		<div className="space-y-28 scroll-smooth">
+		<div className="space-y-28 scroll-smooth max-w-screen-2xl mx-auto">
 			{/* hero */}
 			<section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12">
-				<h1 className="text-4xl lg:text-5xl xl:text-6xl text-center font-semibold max-w-5xl mx-auto leading-snug md:leading-relaxed">
+				<h1 className="text-4xl lg:text-5xl xl:text-6xl 2xl:text-[5.5rem] text-center font-semibold max-w-5xl xl:max-w-8xl mx-auto leading-snug md:leading-relaxed">
 					Welcome to Let's Talk - Your Remote Customer <br /> Service Partner
 				</h1>
 				<p className="text-center max-w-xl mx-auto text-slate-700">

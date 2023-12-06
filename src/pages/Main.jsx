@@ -3,10 +3,10 @@ function Main() {
 		<div className="space-y-28">
 			{/* hero */}
 			<section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12">
-				<h1 className="text-4xl lg:text-5xl xl:text-6xl font-serif text-center font-medium max-w-4xl mx-auto">
-					Welcome to Let's Talk - Your Remote Customer Service Partner
+				<h1 className="text-4xl lg:text-5xl xl:text-6xl text-center font-semibold max-w-5xl mx-auto leading-relaxed">
+					Welcome to Let's Talk - Your Remote Customer <br /> Service Partner
 				</h1>
-				<p className="text-center max-w-3xl mx-auto">
+				<p className="text-center max-w-xl mx-auto text-slate-700">
 					Are you ready to elevate your customer service experience? Look no
 					further! At Let's Talk, we redefine remote customer service, blending
 					cutting-edge technology with a human touch to exceed your
@@ -26,7 +26,7 @@ function Main() {
 				/>
 				<div className="space-y-5">
 					<h5 className="text-cyan-500 font-medium -mb-5">ABOUT US</h5>
-					<h1 className="font-serif font-medium text-2xl md:text-3xl lg:text-4xl">
+					<h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl">
 						Lorem Ipsum{" "}
 					</h1>
 					<p>
@@ -44,7 +44,7 @@ function Main() {
 
 			{/* services */}
 			<section className="space-y-16 py-12">
-                <h4 className="text-center font-medium text-cyan-500">OUR SERVICES</h4>
+				<h4 className="text-center font-medium text-cyan-500">OUR SERVICES</h4>
 				<div className="w-[80%] text-center mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6">
 					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
@@ -63,18 +63,36 @@ function Main() {
 								/>
 							</svg>
 						</div>
-                        <h3 className="font-serif font-medium text-xl ">Calls</h3>
-                        <p className="text-slate-700">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis est sit ipsam ut, obcaecati veniam optio recusandae expedita repellendus eligendi, fugit consectetur harum, libero dolore impedit delectus corrupti molestias.</p>
+						<h3 className="font-semibold text-xl ">Calls</h3>
+						<p className="text-slate-700">
+							lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Voluptatem quis est sit ipsam ut, obcaecati veniam optio
+							recusandae expedita repellendus eligendi.
+						</p>
 					</div>
 					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
-</svg>
-
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="w-6 h-6"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"
+								/>
+							</svg>
 						</div>
-                        <h3 className="font-serif font-medium text-xl ">Text</h3>
-                         <p className="text-slate-700">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis est sit ipsam ut, obcaecati veniam optio recusandae expedita repellendus eligendi, fugit consectetur harum, libero dolore impedit delectus corrupti molestias.</p>
+						<h3 className="font-semibold text-xl ">Text</h3>
+						<p className="text-slate-700">
+							lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Voluptatem quis est sit ipsam ut, obcaecati veniam optio
+							recusandae expedita repellendus eligendi.
+						</p>
 					</div>
 					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
@@ -93,8 +111,12 @@ function Main() {
 								/>
 							</svg>
 						</div>
-                        <h3 className="font-serif font-medium text-xl ">Calls</h3>
-                        <p className="text-slate-700">lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis est sit ipsam ut, obcaecati veniam optio recusandae expedita repellendus eligendi, fugit consectetur harum, libero dolore impedit delectus corrupti molestias.</p>
+						<h3 className="font-semibold text-xl ">Calls</h3>
+						<p className="text-slate-700">
+							lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Voluptatem quis est sit ipsam ut, obcaecati veniam optio
+							recusandae expedita repellendus eligendi.
+						</p>
 					</div>
 				</div>
 			</section>

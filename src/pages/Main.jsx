@@ -1,6 +1,6 @@
 function Main() {
 	return (
-		<div className="space-y-28">
+		<div className="space-y-28 scroll-smooth">
 			{/* hero */}
 			<section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12">
 				<h1 className="text-4xl lg:text-5xl xl:text-6xl text-center font-semibold max-w-5xl mx-auto leading-relaxed">
@@ -18,7 +18,10 @@ function Main() {
 			</section>
 
 			{/* about */}
-			<section className="w-[85%] mx-auto gap-6 grid grid-cols-1 md:grid-cols-2 items-center">
+			<section
+				id="about"
+				className="scroll-mt-12 w-[85%] mx-auto gap-6 grid grid-cols-1 md:grid-cols-2 items-center"
+			>
 				<img
 					className="w-full h-[28rem] object-cover rounded mx-auto max-w-md"
 					src="https://picsum.photos/200/300"
@@ -43,9 +46,9 @@ function Main() {
 			</section>
 
 			{/* services */}
-			<section className="space-y-16 py-12">
+			<section id="services" className="scroll-mt-12 space-y-16 py-12">
 				<h4 className="text-center font-medium text-cyan-500">OUR SERVICES</h4>
-				<div className="w-[80%] text-center mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6">
+				<div className="w-[85%] sm:w-[90%] md:w-[90%] lg:w-[80%] text-center mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4 lg:gap-6">
 					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
 							<svg
@@ -87,7 +90,7 @@ function Main() {
 								/>
 							</svg>
 						</div>
-						<h3 className="font-semibold text-xl ">Text</h3>
+						<h3 className="font-semibold text-xl ">Chat</h3>
 						<p className="text-slate-700">
 							lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Voluptatem quis est sit ipsam ut, obcaecati veniam optio
@@ -107,11 +110,11 @@ function Main() {
 								<path
 									strokeLinecap="round"
 									strokeLinejoin="round"
-									d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+									d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
 								/>
 							</svg>
 						</div>
-						<h3 className="font-semibold text-xl ">Calls</h3>
+						<h3 className="font-semibold text-xl ">Emails</h3>
 						<p className="text-slate-700">
 							lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Voluptatem quis est sit ipsam ut, obcaecati veniam optio

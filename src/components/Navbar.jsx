@@ -8,9 +8,9 @@ function Navbar() {
 				<div className="flex items-center justify-between w-[85%] mx-auto relative px-3 py-3 border border-slate-200 rounded-md top-6">
 					<div>LOGO</div>
 					<nav className="space-x-4 justify-self-start">
-                        <a href="#pricing">About</a>
-						<a href="#features">Features</a>
-						<a href="#pricing">Services</a>
+                        <a href="#about">About</a>
+						<a href="#services">Services</a>
+                        <a href="#pricing">Pricing</a>
 						<a href="#faqs">FAQ</a>
 					</nav>
 					<div className="justify-self-end">
@@ -70,14 +70,15 @@ function Navbar() {
 				>
 					<div className="text-slate-800 text-xl w-full px-8">
 						<nav className="flex flex-col space-y-8">
-							<a onClick={() => setShowNav(!showNav)} href="#pricing">
+							<a onClick={() => setShowNav(!showNav)} href="#about">
 								About
 							</a>
-                            <a onClick={() => setShowNav(!showNav)} href="#features">
-								Features
-							</a>
-							<a onClick={() => setShowNav(!showNav)} href="#pricing">
+                            {/*  */}
+							<a onClick={() => setShowNav(!showNav)} href="#services">
 								Services
+							</a>
+                            <a onClick={() => setShowNav(!showNav)} href="#pricing">
+								Pricing
 							</a>
 							<a onClick={() => setShowNav(!showNav)} href="#faqs">
 								FAQs

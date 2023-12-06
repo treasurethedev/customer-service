@@ -70,11 +70,14 @@ function Navbar() {
 				>
 					<div className="text-slate-800 text-xl w-full px-8">
 						<nav className="flex flex-col space-y-8">
-							<a onClick={() => setShowNav(!showNav)} href="#features">
+							<a onClick={() => setShowNav(!showNav)} href="#pricing">
+								About
+							</a>
+                            <a onClick={() => setShowNav(!showNav)} href="#features">
 								Features
 							</a>
 							<a onClick={() => setShowNav(!showNav)} href="#pricing">
-								Pricing
+								Services
 							</a>
 							<a onClick={() => setShowNav(!showNav)} href="#faqs">
 								FAQs

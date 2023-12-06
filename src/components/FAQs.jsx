@@ -30,8 +30,8 @@ function FAQs() {
 	};
 	const styles = {
 		bgColor: "transparent",
-		titleTextColor: "blue",
-		rowTitleColor: "#06b6d4",
+		// titleTextColor: "blue",
+		rowTitleColor: "#0CBABA",
 		rowContentColor: '#334155',
 		arrowColor: "#334155",
 	};
@@ -43,7 +43,7 @@ function FAQs() {
 	};
 	return (
 		<div className="space-y-12 mb-24">
-            <h4 className="font-semibold text-center text-xl text-cyan-500">FAQs</h4>
+            <h4 className="font-semibold text-center text-xl text-primary">FAQs</h4>
 			<div className="w-[85%] mx-auto max-w-3xl ">
 				<Faq data={data} styles={styles} config={config} />
 			</div>

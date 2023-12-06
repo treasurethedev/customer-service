@@ -17,7 +17,7 @@ function Navbar() {
 						<a href="#faqs">FAQ</a>
 					</nav>
 					<div className="justify-self-end">
-						<button className="bg-cyan-500 hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mx-auto flex">
+						<button className="bg-primary hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mx-auto flex">
 							Get a quote
 						</button>
 					</div>
@@ -89,7 +89,7 @@ function Navbar() {
 						</nav>
 						<div className="flex flex-col space-y-3 my-16">
 							<a
-								className="text-center rounded-lg px-4 py-3 bg-cyan-500 text-white"
+								className="text-center rounded-lg px-4 py-3 bg-primary text-white"
 								href=""
 							>
 								Get Quote

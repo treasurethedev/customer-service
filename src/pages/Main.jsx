@@ -14,7 +14,7 @@ function Main() {
 					cutting-edge technology with a human touch to exceed your
 					expectations.
 				</p>
-				<button className="bg-cyan-500 hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mx-auto flex">
+				<button className="bg-primary hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mx-auto flex">
 					Get a quote
 				</button>
 			</section>
@@ -30,7 +30,7 @@ function Main() {
 					alt=""
 				/>
 				<div className="space-y-5">
-					<h5 className="text-cyan-500 font-medium -mb-5">ABOUT US</h5>
+					<h5 className="text-primary font-medium -mb-5">ABOUT US</h5>
 					<h1 className="font-semibold text-2xl md:text-3xl lg:text-4xl">
 						Lorem Ipsum{" "}
 					</h1>
@@ -49,9 +49,9 @@ function Main() {
 
 			{/* services */}
 			<section id="services" className="scroll-mt-12 space-y-16 py-12">
-				<h4 className="text-center font-semibold text-xl text-cyan-500">OUR SERVICES</h4>
+				<h4 className="text-center font-semibold text-xl text-primary">OUR SERVICES</h4>
 				<div className="w-[85%] sm:w-[90%] md:w-[90%] lg:w-[80%] text-center mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4 lg:gap-6">
-					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
+					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-primary transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ function Main() {
 							recusandae expedita repellendus eligendi.
 						</p>
 					</div>
-					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
+					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-primary transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ function Main() {
 							recusandae expedita repellendus eligendi.
 						</p>
 					</div>
-					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-cyan-500 transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
+					<div className="relative space-y-5 p-6 border border-slate-200 hover:border-primary transition-all hover:-translate-y-2 rounded-md flex flex-col items-center">
 						<div className="absolute -top-7 bg-gradient-to-t from-cyan-100 to-white border p-4 rounded-full">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"

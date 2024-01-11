@@ -8,8 +8,8 @@ function Main() {
   return (
     <div className="relative space-y-28 scroll-smooth max-w-screen-2xl mx-auto">
       {/* hero */}
-      <div className="absolute hero-img"></div>
-      <section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12 relative z-10">
+      <div className="absolute hero-img bg-[url('../../assets/cs.jpg')] w-full min-h-[75vh] bg-no-repeat bg-cover md:bg-fixed bg-top z-[1]"></div>
+      <section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12 relative z-[2]">
         <TypewriterText />
         <div className="bg-transparent p-6 rounded-lg shadow-lg max-w-xl mx-auto border-2 border-primary">
           <p className="text-center text-white">

@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 const TypewriterText = () => {
   return (
-    <h1 className="text-4xl lg:text-5xl xl:text-6xl 2xl:text-[5.5rem] text-center font-semibold max-w-5xl xl:max-w-8xl mx-auto leading-snug md:leading-relaxed text-white">
+    <h1 className="text-4xl lg:text-5xl xl:text-6xl 2xl:text-[5.5rem] text-center font-semibold max-w-5xl xl:max-w-[100rem] mx-auto leading-snug md:leading-relaxed text-white">
       <Typewriter
         options={{ loop: true }}
         onInit={(str) =>

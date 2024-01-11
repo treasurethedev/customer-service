@@ -17,7 +17,7 @@ function Navbar() {
 						<a href="#faqs">FAQ</a>
 					</nav>
 					<div className="justify-self-end">
-						<button className="bg-primary hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mx-auto flex">
+						<button type="button" className="bg-primary hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mx-auto flex">
 							Get a quote
 						</button>
 					</div>

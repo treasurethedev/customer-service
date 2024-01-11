@@ -1,22 +1,30 @@
+/* eslint-disable react/no-unescaped-entities */
 import FAQs from "../components/FAQs";
+import TypewriterText from "../components/TypewriterText";
+import cp from "../assets/pc.jpeg";
+import "./main.css";
 
 function Main() {
   return (
-    <div className="space-y-28 scroll-smooth max-w-screen-2xl mx-auto">
+    <div className="relative space-y-28 scroll-smooth max-w-screen-2xl mx-auto">
       {/* hero */}
-      <section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12">
-        <h1 className="text-4xl lg:text-5xl xl:text-6xl 2xl:text-[5.5rem] text-center font-semibold max-w-5xl xl:max-w-8xl mx-auto leading-snug md:leading-relaxed">
-          Welcome to Let's Talk - Your Remote Customer <br /> Service Partner
-        </h1>
-        <p className="text-center max-w-xl mx-auto text-slate-700">
-          Are you ready to elevate your customer service experience? Look no
-          further! At Let's Talk, we redefine remote customer service, blending
-          cutting-edge technology with a human touch to exceed your
-          expectations.
-        </p>
-        <button className="bg-primary hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mx-auto flex">
-          Get a quote
-        </button>
+      <div className="absolute hero-img"></div>
+      <section className="w-[85%] mx-auto space-y-6 min-h-[75vh] flex flex-col items-center justify-center mt-12 relative z-10">
+        <TypewriterText />
+        <div className="bg-transparent p-6 rounded-lg shadow-lg max-w-xl mx-auto border-2 border-primary">
+          <p className="text-center text-white">
+            Are you ready to elevate your customer service experience? Look no
+            further! At Let's Talk, we redefine remote customer service,
+            blending cutting-edge technology with a human touch to exceed your
+            expectations.
+          </p>
+          <button
+            type="button"
+            className="bg-primary hover:scale-105 transition-all px-3 py-2 md:px-5 md:py-3 rounded text-white font-medium mt-4 block mx-auto"
+          >
+            Get a quote
+          </button>
+        </div>
       </section>
 
       {/* about */}
@@ -26,7 +34,7 @@ function Main() {
       >
         <img
           className="w-full h-[28rem] object-cover rounded mx-auto max-w-md"
-          src="https://picsum.photos/200/300"
+          src={cp}
           alt=""
         />
         <div className="space-y-5">
